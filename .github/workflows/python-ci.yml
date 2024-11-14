@@ -10,7 +10,7 @@ on:
 
 jobs:
   build-test-lint:
-    runs-on: ubuntu-20.04
+    runs-on: ubuntu-20.04 
 
     steps:
       # Step 1: Checkout the code
@@ -21,7 +21,8 @@ jobs:
       - name: Set up Python
         uses: actions/setup-python@v3
         with:
-          python-version: 3.10
+          python-version: "3.x"
+          architecture: "x64"
 
       # Step 3: Install dependencies
       - name: Install Dependencies
