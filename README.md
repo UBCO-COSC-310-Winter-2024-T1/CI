@@ -19,7 +19,7 @@ This project includes a GitHub Actions workflow for Continuous Integration (CI) 
   - **Install dependencies:** `pip install -r requirements.txt`
   - **Lint code:** `flake8 src/ tests/`
   - **Check formatting:** `black --check src/ tests/`
-  - **Run tests with coverage:** `pytest --cov=src --cov-report=term`
+  - **Run tests with coverage:** `pytest --cov=src --cov-report=term` (produces local html with coverage reports; on CI workflow, creates coverage artefact file) 
 
 ### Automated CI:
 The workflow runs automatically on every push or pull_request to the dev branch.
