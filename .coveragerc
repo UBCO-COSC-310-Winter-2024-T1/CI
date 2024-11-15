@@ -1,0 +1,21 @@
+[run]
+# Include only the source code directory
+source = src
+
+# Exclude specific files or directories
+omit = 
+    venv/*
+    */__init__.py
+    */tests/*
+
+[report]
+# Include missing lines in the report
+show_missing = true
+
+# Sort the report output by name
+sort = Name
+
+# Skip these patterns when reporting coverage
+exclude_lines =
+    # Don't report coverage for `if __name__ == '__main__'` blocks
+    if __name__ == .__main__.:
