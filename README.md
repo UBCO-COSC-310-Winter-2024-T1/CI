@@ -29,3 +29,4 @@ The workflow runs automatically on every push or pull_request to the dev branch.
 - `pytest.ini`: Configures pytest for test discovery and settings.
 - `.flake8`: Customizes linting rules for the project.
 - `.coveragerc`: Configures coverage measurement for the source code.
+

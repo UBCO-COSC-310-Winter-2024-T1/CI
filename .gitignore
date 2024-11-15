@@ -1,0 +1,6 @@
+# Ignore Python virtual environment directory
+venv/
+
+# Common Python ignores
+*.pyc
+__pycache__/
